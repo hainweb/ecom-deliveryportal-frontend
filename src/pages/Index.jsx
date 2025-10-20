@@ -118,7 +118,7 @@ const OrderList = () => {
   return (
     <section className="p-6 bg-gray-50 min-h-screen">
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-3xl font-extrabold mb-6">Your Orders</h2>
+        <h2 className="text-3xl font-extrabold mb-6">Orders Assigned to You</h2>
         {loadingOrders ? (
           <div className="text-center py-20">
             <span className="text-xl text-gray-600 animate-pulse">
